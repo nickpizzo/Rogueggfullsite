@@ -1,0 +1,49 @@
+header {
+  border-bottom: 1px solid white;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    width: 220px;
+    padding: 10px;
+
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    li {
+      padding:0 15px;
+      border: 2px solid darkgrey;
+      height: 30px;
+      transform: skewX(-25deg);
+      height: 70px;
+      text-transform: uppercase;
+      display: inline-block;
+      font-color: white;
+      a {
+        display: inline-block;
+        transform: skewX(25deg);
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        line-height: 20px;
+        img.overwatch-logo {
+          width: 150px;
+          padding-top: 22px;
+        }
+        img.csgo-logo {
+          width: 90px;
+          padding-top: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+}

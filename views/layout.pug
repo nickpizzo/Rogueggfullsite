@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Test
+    link(rel='stylesheet', type='text/css', href='/css/main.css')
+  body
+
+    .container
+      header
+        a(href='/')
+          img.logo(src='img/rogue-logo.svg')
+        ul
+          li
+            a(href='/link1')
+              img.overwatch-logo(src='img/overwatch-logo.svg')
+          li
+            a(href='/link2')
+              img.csgo-logo(src='img/csgo-logo.svg')
+    block content
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='/js/main.js')

@@ -1,0 +1,34 @@
+$logolightblue: #1EB4ED;
+$logodarkblue: #021C4A;
+$logolightorange: #F9BA3E;
+$logodarkorange: #F38231;
+
+@import './base/reset';
+@import './base/slick';
+@import './base/slick-theme';
+@import './partials/navbar';
+@import './partials/index';
+
+body {
+  background-color: darkgrey;
+  background-position: center;
+}
+
+.container {
+  background-color: RGBA(7, 7, 9, .75);
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.test {
+  padding-top: 25px;
+  font-size: 1.5em;
+  color: white;
+}
