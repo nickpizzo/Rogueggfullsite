@@ -1,9 +1,10 @@
 header {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid darkgrey;
   font-size: 1.5em;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
+
   .logo {
     width: 220px;
     padding: 10px;
@@ -11,31 +12,35 @@ header {
   }
   ul {
     display: flex;
-    align-items: center;
+
     padding-right: 20px;
+
     li {
       padding:0 15px;
-      border: 2px solid darkgrey;
+      border-left: 1px solid darkgrey;
       height: 30px;
       transform: skewX(-25deg);
-      height: 70px;
+      height: 100px;
       text-transform: uppercase;
       display: inline-block;
       font-color: white;
+
+
       a {
-        display: inline-block;
+        display: flex;
         transform: skewX(25deg);
         align-items: center;
         height: 100%;
         width: 100%;
         line-height: 20px;
+
         img.overwatch-logo {
           width: 150px;
-          padding-top: 22px;
+
         }
         img.csgo-logo {
           width: 90px;
-          padding-top: 25px;
+
         }
       }
     }

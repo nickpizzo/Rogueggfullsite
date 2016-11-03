@@ -10,12 +10,11 @@ $logodarkorange: #F38231;
 @import './partials/index';
 
 body {
-  background-color: darkgrey;
-  background-position: center;
+  background: url("../img/bg.png") no-repeat center center fixed;
 }
 
 .container {
-  background-color: RGBA(7, 7, 9, .75);
+  background-color: RGBA(7, 7, 9, 1);
   max-width: 1120px;
   margin: 0 auto;
   height: 100%;
@@ -28,7 +27,5 @@ body {
 }
 
 .test {
-  padding-top: 25px;
-  font-size: 1.5em;
   color: white;
 }
