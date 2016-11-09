@@ -2,9 +2,11 @@ doctype html
 html
   head
     title Test
+    meta(charset="utf-8")
+    link(href='https://fonts.googleapis.com/css?family=Russo+One', rel='stylesheet')
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
     link(rel='stylesheet', type='text/css', href='/css/main.css')
   body
-
     .container
       header
         a(href='/')
@@ -17,7 +19,10 @@ html
             a(href='/csgo')
               img.csgo-logo(src='img/csgo-logo.svg')
           li
-            a.test(href='/link2') Store
-    block content
-    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+            a.test(href='/link2')
+              img.csgo-logo(src='img/rogue-twitch.svg' style='width:110px;')
+          li
+            a.test(href='/link2')
+              img.csgo-logo(src='img/rogue-store.svg' style='width:86px;')
+      block content
     script(src='/js/main.js')

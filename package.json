@@ -2,7 +2,8 @@
   "name": "nodeEnv",
   "private": true,
   "dependencies": {
-    "express": "^4.8.2"
+    "express": "^4.8.2",
+    "hbs": "^4.0.1"
   },
   "babel": {
     "presets": [
@@ -10,16 +11,17 @@
     ]
   },
   "devDependencies": {
-    "gulp-babel": "^6.1.2",
     "babel-preset-latest": "^6.16.0",
     "browser-sync": "^1.3.3",
     "gulp": "^3.8.7",
+    "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
     "gulp-nodemon": "^1.0.4",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
+    "hbs": "^4.0.1",
     "pug": "^2.0.0-beta6"
   }
 }
